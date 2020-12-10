@@ -1,10 +1,10 @@
 /*
- * @Descriptions: 代码统一格式化处理
+ * @Descriptions: 代码统一格式化处理 npm run lint
  * @Version:
  * @Author:
  * @Date: 2020-12-10 10:51:08
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-10 11:20:32
+ * @LastEditTime: 2020-12-10 11:27:06
  */
 
 module.exports = {

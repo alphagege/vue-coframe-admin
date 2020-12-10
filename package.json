@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "lint:style": "stylelint-config-prettier-check",
     "test:e2e": "vue-cli-service test:e2e"
   },
   "dependencies": {
@@ -27,6 +28,9 @@
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
+    "stylelint": "^13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recess-order": "^2.3.0",
     "vue-template-compiler": "^2.6.11"
   }
 }

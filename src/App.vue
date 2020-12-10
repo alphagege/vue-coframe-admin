@@ -4,10 +4,10 @@
  * @Author: 
  * @Date: 2020-12-10 10:25:42
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-10 11:21:49
+ * @LastEditTime: 2020-12-10 13:19:20
 -->
 <template>
-  <div class="">金卡接电话撒打算肯德基</div>
+  <div class="aaa">金卡接电话撒打算肯德基</div>
 </template>
 
 <script>
@@ -28,4 +28,11 @@ export default {
   methods: {},
 }
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.aaa {
+  width: 100px;
+  height: 200px;
+  color: red;
+  background: #fff;
+}
+</style>
