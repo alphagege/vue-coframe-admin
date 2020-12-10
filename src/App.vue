@@ -7,23 +7,23 @@
  * @LastEditTime: 2020-12-10 14:27:42
 -->
 <template>
-    <div class=""></div>
+  <div class=""></div>
 </template>
 
 <script>
-    export default {
-        name: '',
-        components: {},
-        mixins: [],
-        props: {},
-        data() {
-            return {}
-        },
-        computed: {},
-        watch: {},
-        created() {},
-        mounted() {},
-        methods: {},
-    }
+  export default {
+    name: '',
+    components: {},
+    mixins: [],
+    props: {},
+    data() {
+      return {}
+    },
+    computed: {},
+    watch: {},
+    created() {},
+    mounted() {},
+    methods: {},
+  }
 </script>
 <style lang="scss" scoped></style>
