@@ -4,15 +4,17 @@
  * @Author: 
  * @Date: 2020-12-10 10:25:42
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-10 14:42:49
+ * @LastEditTime: 2020-12-11 15:38:52
 -->
 <template>
-  <div class=""></div>
+  <div id="vue-admin-coframe">
+    <router-view />
+  </div>
 </template>
 
 <script>
   export default {
-    name: '',
+    name: 'App',
     components: {},
     mixins: [],
     props: {},
