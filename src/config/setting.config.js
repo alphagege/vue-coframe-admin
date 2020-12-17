@@ -4,7 +4,7 @@
  * @Author:
  * @Date: 2020-12-11 09:21:28
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-11 15:00:07
+ * @LastEditTime: 2020-12-17 12:00:35
  */
 const setting = {
   // 开发以及部署时的URL
