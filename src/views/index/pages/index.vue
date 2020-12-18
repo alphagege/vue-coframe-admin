@@ -1,20 +1,18 @@
 <!--
- * @Descriptions: 根组件
+ * @Descriptions: 
  * @Version: 
  * @Author: 
- * @Date: 2020-12-10 10:25:42
+ * @Date: 2020-12-18 15:43:55
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-11 15:38:52
+ * @LastEditTime: 2020-12-18 15:43:56
 -->
 <template>
-  <div id="vue-admin-coframe">
-    <router-view />
-  </div>
+  <div class="">index</div>
 </template>
 
 <script>
   export default {
-    name: 'App',
+    name: '',
     components: {},
     mixins: [],
     props: {},

@@ -1,18 +1,20 @@
 <!--
- * @Descriptions: 
+ * @Descriptions: 根组件
  * @Version: 
  * @Author: 
- * @Date: 2020-12-17 14:24:02
+ * @Date: 2020-12-10 10:25:42
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-17 14:26:35
+ * @LastEditTime: 2020-12-18 15:39:36
 -->
 <template>
-  <div class=""></div>
+  <div id="vue-admin-coframe">
+    <router-view />
+  </div>
 </template>
 
 <script>
   export default {
-    name: '',
+    name: 'App',
     components: {},
     mixins: [],
     props: {},
@@ -21,9 +23,7 @@
     },
     computed: {},
     watch: {},
-    created() {
-      console.log(process.env.VUE_APP_EOSKEY)
-    },
+    created() {},
     mounted() {},
     methods: {},
   }

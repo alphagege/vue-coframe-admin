@@ -4,7 +4,7 @@
  * @Author:
  * @Date: 2020-12-10 11:14:40
  * @LastEditors: dongwenjie
- * @LastEditTime: 2020-12-17 14:25:07
+ * @LastEditTime: 2020-12-18 16:18:56
  */
 
 import Vue from 'vue'
@@ -14,11 +14,12 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/test',
-    component: () => import('../views/test'),
+    path: '/index',
+    component: () => import('../pages/index.vue'),
   },
 ]
 const router = new VueRouter({
+  mode: 'history',
   routes,
 })
 
